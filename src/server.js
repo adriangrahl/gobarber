@@ -4,7 +4,7 @@ const path = require('path')
 const session = require('express-session')
 const LokiStore = require('connect-loki')(session)
 const flash = require('connect-flash')
-const dateFilter = require('nunjucks-date-filter')
+const dateFilter = require('nunjucks-date-filter-local')
 
 class App {
   constructor () {
